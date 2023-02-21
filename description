@@ -1,0 +1,2 @@
+Problem: Remove Namespace stuck in terminating state after delete. 
+Solution: Use Linux. Get the json output for namespace. Remove the line with "kubernetes"  from "finalizers" object in above json file.  Apply json to cluster. [Source1, Source2] 
